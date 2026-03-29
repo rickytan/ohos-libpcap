@@ -1,0 +1,22 @@
+{
+  "name": "@rickytan/libpcap",
+  "version": "1.11.0",
+  "description": "libpcap - the Portable Packet Capture Library",
+  "main": "index.ets",
+  "author": "rickytan",
+  "license": "BSD-3-Clause",
+  "compatibleSdkVersion": 15,
+  "compatibleSdkType": "HarmonyOS",
+  "nativeComponents": [
+    {
+      "name": "libpcap.so",
+      "compatibleSdkVersion": 15,
+      "linkLibraries": []
+    }
+  ],
+  "metadata": {
+    "byteCodeHar": true,
+    "nativeDebugSymbol": true,
+    "sourceRoots": ["./src/main"]
+  }
+}

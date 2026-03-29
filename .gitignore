@@ -137,3 +137,11 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# OHOS build artifacts
+prelude/
+build/
+*.har
+package/include
+package/libs
+.DS_Store
