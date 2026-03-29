@@ -3,6 +3,9 @@
 rm -rf ./package/include/
 rm -rf ./package/libs/
 
+# Copy metadata files
+cp README.md CHANGELOG.md LICENSE ./package/
+
 # Headers (architecture-independent, take from one arch only)
 cp -r "./prelude/arm64-v8a/include" "./package/"
 
