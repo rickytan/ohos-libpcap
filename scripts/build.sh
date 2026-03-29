@@ -23,7 +23,8 @@ build_architecture() {
             -DPCAP_TYPE=linux \
             -DBUILD_WITH_LIBNL=OFF \
             -DBUILD_SHARED_LIBS=ON \
-            -DENABLE_REMOTE=OFF && \
+            -DENABLE_REMOTE=OFF \
+            -DDISABLE_DBUS=ON && \
         cmake --build "${build_dir}" && \
         cmake --install "${build_dir}"
     else
