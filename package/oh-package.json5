@@ -7,6 +7,7 @@
   "license": "BSD-3-Clause",
   "compatibleSdkVersion": 15,
   "compatibleSdkType": "HarmonyOS",
+  "dependencies": { },
   "nativeComponents": [
     {
       "name": "libpcap.so",
